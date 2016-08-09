@@ -1,12 +1,7 @@
 import * as React from 'react';
-import {
-  Link
-} from '../../../index';
-import {
-  ExampleCard,
-  PropertiesTableSet
-} from '../../components/index';
-
+import { Link } from '../../../components/Link';
+import { ExampleCard } from '../../components/ExampleCard/ExampleCard';
+import { PropertiesTableSet } from '../../components/PropertiesTable/PropertiesTableSet';
 import { BreadcrumbBasicExample } from './examples/Breadcrumb.Basic.Example';
 
 const BreadcrumbBasicExampleCode = require('./examples/Breadcrumb.Basic.Example.tsx');
